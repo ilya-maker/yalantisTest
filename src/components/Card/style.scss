@@ -1,0 +1,43 @@
+.card {
+  padding: 15px 0;
+  border-radius: 16px;
+  position: relative;
+  &--red {
+    background-color: #FF8282;
+  }
+  &--green {
+    background-color: #418041;
+  }
+  &--grey {
+    background-color: #808080;
+  }
+  &--blue {
+    background-color: #8282FF;
+  }
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+}
+
+.user {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: inherit;
+  border-radius: 0 0 16px 10px;
+  &__info {
+    border-bottom: 2px solid white;
+    &:last-child {
+      border: none;
+    }
+  }
+  &__name {
+    color: #E1E035;
+  }
+}
