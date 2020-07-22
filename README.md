@@ -1,4 +1,4 @@
-[DEMO LINK](https://yalantis-test-seven.vercel.app/#/)
+[DEMO LINK](https://yalantistest.vercel.app/)
 
 ## How to run this project
 1. Clone this repository.
